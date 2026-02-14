@@ -251,6 +251,6 @@ public class HelloLombok {
 }
 ```
 
-- hello, lombok 속성에 final을 추가하고 @RequiredArgsConstructor 애너테이션을 적용하면 해당 속성(hello, lombok)을 필요로 하는 생성자가 롬복에 의해 자동으로 생성됨
+- hello, lombok 속성에 final을 추가하고 @RequiredArgsConstructor 애너테이션을 적용하면 해당 속성(hello, lombok)을 필요로 하는 생성자가 롬복에 의해 자동으로 생성
     - final: 뒤에 따라오는 자료형, 변수 등을 변경할 수 없게 만드는 키워드
         - 속성 값을 변경할 수 없기 때문에 @Setter는 의미가 없어짐
